@@ -1,8 +1,8 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import { Home } from './views/Home';
-import './App.css';
+import { Home } from './views/home'
+import './App.css'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App

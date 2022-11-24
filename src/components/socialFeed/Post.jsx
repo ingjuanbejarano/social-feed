@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-import { PostContainer, PostedDate, PostText, PostAuthor } from './styled/post';
+import { PostContainer, PostedDate, PostText, PostAuthor } from './styled/post'
 
 export const Post = ({ post }) => {
-  const { authorName, messageBody, postDate } = post;
+  const { authorName, messageBody, postDate } = post
   return (
     <>
       <PostContainer title="post-container">
@@ -12,5 +12,5 @@ export const Post = ({ post }) => {
       </PostContainer>
       <PostedDate title="post-date">Posted: {postDate}</PostedDate>
     </>
-  );
-};
+  )
+}

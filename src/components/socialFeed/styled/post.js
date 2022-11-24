@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
-import { deviceSizes } from '../../../utils/const';
+import { deviceSizes } from '../../../utils/const'
 
 export const PostContainer = styled.div`
   background-color: #ffffff;
@@ -21,7 +21,7 @@ export const PostContainer = styled.div`
   @media ${deviceSizes.tablet} {
     padding: 10px 10px 10px 25px;
   }
-`;
+`
 
 export const PostedDate = styled.span`
   font-family: 'Raleway', sans-serif;
@@ -38,7 +38,7 @@ export const PostedDate = styled.span`
     font-size: 16px;
     line-height: 24px;
   }
-`;
+`
 
 export const PostText = styled.p`
   font-family: 'Raleway', sans-serif;
@@ -49,15 +49,12 @@ export const PostText = styled.p`
   letter-spacing: 0em;
   text-align: left;
   margin-top: 0;
-  /* overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis; */
 
   @media ${deviceSizes.mobileL} {
     font-size: 13px;
     line-height: 19.5px;
   }
-`;
+`
 
 export const PostAuthor = styled.span`
   font-family: 'Raleway', sans-serif;
@@ -67,4 +64,4 @@ export const PostAuthor = styled.span`
   letter-spacing: 0em;
   text-align: left;
   color: #6424ff;
-`;
+`

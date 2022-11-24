@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from 'styled-components'
 
 const animation = keyframes`
   0% {
@@ -7,7 +7,7 @@ const animation = keyframes`
   100% {
       transform: rotate(360deg);
   }
-`;
+`
 export const Spinner = styled.span`
   width: 48px;
   height: 48px;
@@ -18,4 +18,4 @@ export const Spinner = styled.span`
   display: inline-block;
   box-sizing: border-box;
   animation: ${animation} 1s linear infinite;
-`;
+`
